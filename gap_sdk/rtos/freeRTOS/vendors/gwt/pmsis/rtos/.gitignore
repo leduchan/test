@@ -1,0 +1,13 @@
+!.gitignore
+*~
+*BUILD
+*build
+*.log
+*.swp
+tags
+*CMakeFiles*
+**CMakeCache.txt
+**.a
+*CMakeCache.txt
+**cmake_install.cmake
+*cmake_install.cmake
