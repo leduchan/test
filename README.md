@@ -14,12 +14,12 @@ install all packages for OS, download and install the toolchain, configure the S
 
 ## Implementation:
 The tasks are executed and contained in the director techexercise. The folder organization is following:
-__gap_sdk/<br />
-    techexercise/
-        task1/
-        task2/
-        task3/
-        task4/
-        task5/
+*gap_sdk/<br />
+    *techexercise/
+        *task1/
+        *task2/
+        *task3/
+        *task4/
+        *task5/
 
      
