@@ -12,7 +12,26 @@ In this framework, we use a Ubuntu 20.04 running on virtual machine from window 
 Goto the link: https://github.com/GreenWaves-Technologies/gap_sdk and follow the instructions to 
 install all packages for OS, download and install the toolchain, configure the SDK, install SDK, etc.
 
-## Implementation:
+## How to start compiling and running the programs on GVSOC:
+
+Before compiling and running the applications, please make sure:
+* The toolchain has been installed successfully.
+* The SDK has been built without error.
+* The shell environment has been configured correctly for the GAP8 SDK.
+
+## How to compile and run the programs on GVSOC:
 The tasks are executed and contained in the director gap_sdk/techexercise/.
 
-     
+```bash
+cd .../gap_sdk/techexercise/task1/
+```
+Then execute the command for compiling and running the program on GVSOC:
+
+```bash
+make clean all run PMSIS_OS=freertos platform=gvsoc
+```
+or 
+
+```bash
+./launch.sh
+```     
