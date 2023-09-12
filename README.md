@@ -12,11 +12,13 @@ In this framework, we use a Ubuntu 20.04 running on virtual machine from window 
 Goto the link: https://github.com/GreenWaves-Technologies/gap_sdk and follow the instructions to 
 install all packages for OS, download and install the toolchain, configure the SDK, install SDK, etc.
 
-## Folder organization:
-      gap_sdk/
-          task1/
-          task2/
-          task3/
-          task4/
-          task5/
+## Implementation:
+The tasks are executed and contained in the director techexercise.       
+	gap_sdk/
+		techexercise/	
+          		task1/
+          		task2/
+          		task3/
+          		task4/
+          		task5/
      
