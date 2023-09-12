@@ -21,4 +21,14 @@ The tasks are executed and contained in the director techexercise. The folder or
             task3/
             task4/
             task5/
+sudo apt-get install -y \
+    autoconf \
+    automake \
+    bison \
+    build-essential \
+    cmake \
+    curl \
+    doxygen \
+    flex \
+    git \
      
