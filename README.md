@@ -14,9 +14,9 @@ install all packages for OS, download and install the toolchain, configure the S
 
 ## Folder organization:
       gap_sdk/
-      task1/
-      task2/
-      task3/
-      task4/
-      task5/
- 
+          task1/
+          task2/
+          task3/
+          task4/
+          task5/
+     
