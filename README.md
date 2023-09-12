@@ -13,22 +13,13 @@ Goto the link: https://github.com/GreenWaves-Technologies/gap_sdk and follow the
 install all packages for OS, download and install the toolchain, configure the SDK, install SDK, etc.
 
 ## Implementation:
-The tasks are executed and contained in the director techexercise. The folder organization is following:       
-    </pre>gap_sdk/<br />
-        techexercise/	
-            task1/
-            task2/
-            task3/
-            task4/
-            task5/
-sudo apt-get install -y \
-    autoconf \
-    automake \
-    bison \
-    build-essential \
-    cmake \
-    curl \
-    doxygen \
-    flex \
-    git \
+The tasks are executed and contained in the director techexercise. The folder organization is following:
+gap_sdk/<br />
+    techexercise/
+        task1/
+        task2/
+        task3/
+        task4/
+        task5/
+
      
