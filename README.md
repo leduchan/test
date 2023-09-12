@@ -8,10 +8,15 @@ In this framework, we use a Ubuntu 20.04 running on virtual machine from window 
 * Step 2: Download .iso ubuntu image https://ubuntu.com/download/desktop
 * Step 4: Create, Configure and setup linux Ubuntu 20.04 running on VM VirtualBox.
     
-## Setup GAP SDK Environment
+## GAP SDK configuration and installation: 
 Goto the link: https://github.com/GreenWaves-Technologies/gap_sdk and follow the instructions to 
 install all packages for OS, download and install the toolchain, configure the SDK, install SDK, etc.
 
+```bash
+source ~/gap_sdk/sourceme.sh
+cd ~/gap_sdk/
+make gvsoc
+```
 ## How to start compiling and running the programs on GVSOC:
 
 Before compiling and running the applications, please make sure:
